@@ -79,7 +79,6 @@ const elList = document.querySelector(".js-list");
 for (let i = 0; i < malumot.length; i++) {
   const user = malumot[i];
   const elItem = document.createElement("li");
-  elItem.classList.add("list-item");
   elList.appendChild(elItem);
   const elImg = document.createElement("img");
   const elText = document.createElement("p");
